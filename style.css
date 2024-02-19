@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 .newspaper-container  {
-    width: 1000px;
+    width: 700px;
     border-radius:25px;
     box-shadow: 1px 1px #ddd;
     align-content: center;
@@ -63,29 +63,18 @@ h5 {
     font-family: 'Abril Fatface';
 }
 
-
-      
-
-body {
-    /*
-    background-color: #eee;
-    width: 1000px;
-       border-radius:25px;
-       box-shadow: 1px 1px #ddd;
-       align-content: center;
-}*/
-
 section{
      display:inline-block;
     width: 50%;
     margin-left: auto;
-    
-    }
-section{
-    float: right;
     width: 50%;
     
 }   
+.more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+}
 
 p {
     text-align:left ;
