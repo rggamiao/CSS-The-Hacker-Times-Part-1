@@ -63,6 +63,20 @@ h5 {
     font-family: 'Abril Fatface';
 }
 
+.image1 {
+    width: 50%;
+}
+      
+
+
+    /*
+    background-color: #eee;
+    width: 1000px;
+       border-radius:25px;
+       box-shadow: 1px 1px #ddd;
+       align-content: center;
+}*/
+
 section{
      display:inline-block;
     width: 50%;
@@ -90,4 +104,10 @@ main > p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-weight: 200;
   }
