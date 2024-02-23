@@ -1,1 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+<<<<<<< HEAD
+=======
+.newspaper-container  {
+    width: 700px;
+    border-radius:25px;
+    box-shadow: 1px 1px #ddd;
+    align-content: center;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+li {
+    display: inline-block;
+    list-style-type: none;
+   padding: 10px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjRdE.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+   
+}
+
+.date {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    color: darkgrey;
+    margin-left: 1em;
+    margin-top: 1em;
+
+}
+header > h1 {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    text-align: center;
+    font-size: 50px;
+
+
+}
+a{
+    color: #777;
+    text-decoration: none;
+    
+}
+h2 {
+    font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+}
+
+h4 {
+    font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+h5 {
+    color: rgb(228, 48, 48);
+    font-family: 'Abril Fatface';
+}
+
+.image1 {
+    width: 50%;
+}
+      
+
+
+    /*
+    background-color: #eee;
+    width: 1000px;
+       border-radius:25px;
+       box-shadow: 1px 1px #ddd;
+       align-content: center;
+}*/
+
+section{
+     display:inline-block;
+    width: 50%;
+    margin-left: auto;
+    width: 50%;
+    
+}   
+.more-articles section {
+    display: inline-block;
+    width: 44%;
+    margin: 0 1em;
+}
+
+p {
+    text-align:left ;
+    font-family: 'Source Sans Pro';
+}
+
+main > p {
+    color: #dd3232
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+  }
+>>>>>>> b58682dd9adcff98452502cc3157b055901d5277
