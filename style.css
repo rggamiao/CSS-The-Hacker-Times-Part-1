@@ -14,9 +14,9 @@ li {
     display: inline-block;
     list-style-type: none;
    padding: 10px;
-    font-family: 'Roboto Slab';
+   
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjRdE.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -26,9 +26,10 @@ li {
 .date {
     font-family: 'Source Sans Pro';
     font-style: normal;
-    color: darkgrey;
-    margin-left: 1em;
-    margin-top: 1em;
+    color: rgb(102, 102, 102);
+    margin-left: 20px;
+    padding-top: 20px;
+    font-weight: 200;
 
 }
 header > h1 {
@@ -41,6 +42,7 @@ header > h1 {
 
 
 }
+
 a{
     color: #777;
     text-decoration: none;
@@ -114,6 +116,13 @@ main > p {
     font-weight: 200;
   }
 
+.more-articles-2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
   .more-articles-2 section{
     display: inline-block;
     width: 44%;
@@ -121,13 +130,25 @@ main > p {
     
 }
 
-.article-3 {
-    display: inline-block;
-}
 
 nav {
     text-align: center;
-    position: fixed;
+    
     top: 0;
     margin: 0 auto;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flexbox;
+    position: absolute;
+    width: 100%;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
