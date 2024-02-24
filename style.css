@@ -46,6 +46,7 @@ header > h1 {
 a{
     color: #777;
     text-decoration: none;
+   
     
 }
 h2 {
@@ -67,7 +68,8 @@ h5 {
 }
 
 .image1 {
-    width: 50%;
+    width: 100%
+    margin-left: 25px;
 }
       
 
@@ -95,8 +97,10 @@ section{
 }
 
 p {
-    text-align:left ;
+    text-align: left;
     font-family: 'Source Sans Pro';
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 main > p {
@@ -105,8 +109,8 @@ main > p {
 
 .image1 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     width: 100%;
   }
 
@@ -123,10 +127,11 @@ main > p {
 }
 
 
-  .more-articles-2 section{
+.more-articles-2 section{
     display: inline-block;
     width: 44%;
     margin: 0 1em;
+    
     
 }
 
@@ -152,3 +157,7 @@ footer {
     text-decoration: none;
     margin: 0 10px;
   }
+
+img {
+    width: 100%;
+}
